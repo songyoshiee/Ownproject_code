@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+						http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.3.xsd
+						http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+						http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+						http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring.xsd">
+
+
+	<context:component-scan base-package="com.watchers" />
+	
+	<context:property-placeholder location="classpath:/META-INF/database.properties" />
+	
+	
+	<!-- 운영용  DataSource Start -->
+    <!-- bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="${jdbc.driver}" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+	</bean-->
+	<!-- 운영용  DataSource End -->
+	    
+    <!-- 개발용  DataSource Start -->
+    <bean id="dataSourceSpied" class="org.apache.commons.dbcp2.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="${jdbc.driver}" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+		<property name="initialSize" value="0" />        
+        <property name="maxTotal" value="8" />
+        <property name="maxIdle" value="8" />
+        <property name="minIdle" value="0" />
+	</bean>
+    <bean id="dataSource" class="net.sf.log4jdbc.Log4jdbcProxyDataSource">
+        <constructor-arg ref="dataSourceSpied" />
+        <property name="logFormatter">
+            <bean class="net.sf.log4jdbc.tools.Log4JdbcCustomFormatter">
+                <property name="loggingType" value="MULTI_LINE" />
+                <property name="sqlPrefix" value="SQL :  "/>
+            </bean>
+        </property>
+    </bean>
+    <!-- 개발용 DataSource End -->
+    
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+        <!-- property name="configLocation" value="classpath:/META-INF/mybatis-config.xml"></property-->
+    </bean>
+    
+    <!-- Mapper Scan -->
+    <!-- Base package: com.watchers 하위의  @WatchersMyBatisMapper 어노테이션이 설정된 Mapper를 Scan -->
+    <bean id="mapperScanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer" >
+        <property name="basePackage" value="com.watchers" />
+        <property name="annotationClass" value="com.watchers.common.annotation.WatchersMyBatisMapper" />
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
+    </bean>
+    
+    <!-- TransactionManager  -->
+	<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+	
+    <!-- Transaction PointCut  -->
+    <!-- Package: ..service 하위의 *Service Interface -->
+    <aop:config>
+        <aop:advisor advice-ref="transactionAdvice" pointcut="execution(* *..*.service.*Service.*(..))" />
+    </aop:config>
+    
+    <!-- Transaction manager의 관리 대상 메소드 -->
+    <tx:advice id="transactionAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="get*" 		propagation="REQUIRED" 	isolation="DEFAULT" 	timeout="300"   />
+            <tx:method name="upd*" 		propagation="REQUIRED" 	isolation="DEFAULT" 	timeout="300" 	rollback-for="java.lang.Exception" />
+            <tx:method name="ins*" 		propagation="REQUIRED" 	isolation="DEFAULT" 	timeout="300" 	rollback-for="java.lang.Exception" />
+            <tx:method name="del*" 		propagation="REQUIRED" 	isolation="DEFAULT" 	timeout="300" 	rollback-for="java.lang.Exception" />
+            <tx:method name="proc*" 	propagation="REQUIRED" 	isolation="DEFAULT" 	timeout="600" 	rollback-for="java.lang.Exception" />
+        </tx:attributes>
+    </tx:advice>
+    
+</beans>

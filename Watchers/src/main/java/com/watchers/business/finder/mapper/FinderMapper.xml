@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.watchers.business.finder.mapper.FinderMapper">
+	<select id="getFinderList" parameterType="com.watchers.business.finder.model.FinderVo" resultType="com.watchers.business.finder.model.FinderVo">
+		SELECT A.IDX
+			 , A.ID
+			 , A.FILE_NAME
+			 , A.STATUS
+			 , DATE_FORMAT(A.FIRST_DATE, '%Y-%m-%d %H:%i:%s') AS FIRST_DATE
+			 , DATE_FORMAT(A.RENEWAL_DATE, '%Y-%m-%d %H:%i:%s') AS RENEWAL_DATE
+			 , B.NAME
+			 , B.EMAIL
+			 , B.PHONE
+		  FROM finder A
+		     , user B
+		 WHERE 1 = 1
+		   AND B.ID = A.ID
+		   <if test="id != null and id != ''">
+		   AND A.ID = #{id}
+		   </if>
+		 ORDER BY IDX DESC
+	</select>
+	<update id="updFinder" parameterType="com.watchers.business.finder.model.FinderVo">
+		UPDATE finder
+		   SET ACCURACY = #{accuracy}
+		   	 , STATUS = 'Y'
+		   	 , RENEWAL_DATE = NOW()
+		   	 , MISSINGS_ID = #{missings_id}
+		 WHERE 1 = 1
+		   AND IDX = #{idx}
+	</update>
+	<insert id="insFinder" parameterType="com.watchers.business.finder.model.FinderVo">
+		INSERT INTO finder
+			 (
+			 	id
+			,	file_name
+			,	first_date
+			,	renewal_date
+			 )
+		VALUES
+			 (
+			 	#{id}
+			 ,	#{file_name}
+			 ,	NOW()
+			 ,	NOW()
+			 )
+	</insert>
+	<select id="getMissingsList" parameterType="com.watchers.business.finder.model.FinderVo" resultType="com.watchers.business.finder.model.MissingsVo">
+		SELECT A.IDX
+		     , B.SEX
+			 , B.NAME
+			 , B.OCCR_AGE
+			 , B.CURRENT_AGE
+			 , B.OCCR_DATE
+			 , B.OCCR_ADDRESS 
+		  FROM finder A
+		     , missings B
+		 WHERE 1 = 1
+		   AND B.ID = A.MISSINGS_ID
+		   <if test="id != null and id != ''">
+		   AND A.ID = #{id}
+		   </if>
+		 ORDER BY IDX DESC
+	</select>
+</mapper>

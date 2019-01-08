@@ -1,0 +1,17 @@
+C:\Users\Administrator\Documents\workspace-sts-3.7.0.RELEASE\Watchers\src\main\java\com\watchers\common\annotation\WatchersMyBatisMapper.java
+C:\Users\Administrator\Documents\workspace-sts-3.7.0.RELEASE\Watchers\src\main\java\com\watchers\common\exception\WatchersGlobalExceptionHandler.java
+C:\Users\Administrator\Documents\workspace-sts-3.7.0.RELEASE\Watchers\src\main\java\com\watchers\common\util\StringUtil.java
+C:\Users\Administrator\Documents\workspace-sts-3.7.0.RELEASE\Watchers\src\main\java\com\watchers\common\constant\FrameworkConst.java
+C:\Users\Administrator\Documents\workspace-sts-3.7.0.RELEASE\Watchers\src\main\java\com\watchers\common\interceptor\UserAuthInterceptor.java
+C:\Users\Administrator\Documents\workspace-sts-3.7.0.RELEASE\Watchers\src\main\java\com\watchers\common\exception\WatchersException.java
+C:\Users\Administrator\Documents\workspace-sts-3.7.0.RELEASE\Watchers\src\main\java\com\watchers\common\aspect\EventLoggingAspects.java
+C:\Users\Administrator\Documents\workspace-sts-3.7.0.RELEASE\Watchers\src\main\java\com\watchers\common\aspect\ExceptionAspects.java
+C:\Users\Administrator\Documents\workspace-sts-3.7.0.RELEASE\Watchers\src\main\java\com\watchers\common\exception\WatchersBizException.java
+C:\Users\Administrator\Documents\workspace-sts-3.7.0.RELEASE\Watchers\src\main\java\com\watchers\common\restrequest\BRestClient.java
+C:\Users\Administrator\Documents\workspace-sts-3.7.0.RELEASE\Watchers\src\main\java\com\watchers\common\session\manager\SessionLoginUtil.java
+C:\Users\Administrator\Documents\workspace-sts-3.7.0.RELEASE\Watchers\src\main\java\com\watchers\common\filter\XSSRequestWrapper.java
+C:\Users\Administrator\Documents\workspace-sts-3.7.0.RELEASE\Watchers\src\main\java\com\watchers\common\restrequest\conn\HttpShortKeepAliveStrategy.java
+C:\Users\Administrator\Documents\workspace-sts-3.7.0.RELEASE\Watchers\src\main\java\com\watchers\common\exception\WatchersDataAccessException.java
+C:\Users\Administrator\Documents\workspace-sts-3.7.0.RELEASE\Watchers\src\main\java\com\watchers\common\mstdata\util\SystemPropsUtil.java
+C:\Users\Administrator\Documents\workspace-sts-3.7.0.RELEASE\Watchers\src\main\java\com\watchers\common\filter\XSSFilter.java
+C:\Users\Administrator\Documents\workspace-sts-3.7.0.RELEASE\Watchers\src\main\java\com\watchers\common\session\listener\WatchersHttpSessionListener.java

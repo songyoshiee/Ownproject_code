@@ -1,0 +1,17 @@
+com\watchers\common\filter\XSSRequestWrapper.class
+com\watchers\common\session\listener\WatchersHttpSessionListener.class
+com\watchers\common\exception\WatchersGlobalExceptionHandler.class
+com\watchers\common\mstdata\util\SystemPropsUtil.class
+com\watchers\common\constant\FrameworkConst.class
+com\watchers\common\filter\XSSFilter.class
+com\watchers\common\exception\WatchersException.class
+com\watchers\common\restrequest\conn\HttpShortKeepAliveStrategy.class
+com\watchers\common\exception\WatchersDataAccessException.class
+com\watchers\common\restrequest\BRestClient.class
+com\watchers\common\aspect\EventLoggingAspects.class
+com\watchers\common\aspect\ExceptionAspects.class
+com\watchers\common\util\StringUtil.class
+com\watchers\common\exception\WatchersBizException.class
+com\watchers\common\interceptor\UserAuthInterceptor.class
+com\watchers\common\annotation\WatchersMyBatisMapper.class
+com\watchers\common\session\manager\SessionLoginUtil.class
