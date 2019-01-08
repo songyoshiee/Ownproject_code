@@ -23,3 +23,5 @@ page는 jsp 페이지들이며, resources는 페이지에 필요한 css, js, ima
 ## 사용 언어 및 기술
 HTML, CSS, JavaScript, Java, C#, MySQL, Kinect SDK, Weka
 
+
+#### 감사합니다.
