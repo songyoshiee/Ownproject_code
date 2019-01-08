@@ -8,7 +8,7 @@
 ## My Role
 저는 **Front-End**를 모두 개발하였으며, Bootstrap을 활용하여 페이지를 구현하였습니다.
 
-*** 제가 개발한 페이지는 https://github.com/JeongjuSong/Ownproject_code/tree/master/Watchers/src/main/webapp/WEB-INF 에서 확인하실 수 있습니다. ***
+***제가 개발한 페이지는 https://github.com/JeongjuSong/Ownproject_code/tree/master/Watchers/src/main/webapp/WEB-INF 에서 확인하실 수 있습니다.***
 
 page는 jsp 페이지들이며, resources는 페이지에 필요한 css, js, image 등의 파일들이 존재합니다.
 
