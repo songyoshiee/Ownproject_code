@@ -10,7 +10,7 @@
 ## My Role
 저는 **Kinect와 C# 언어**를 사용하여 걸음걸이 3차원 좌표 데이터를 얻어왔으며, **Front-End**를 모두 개발하였습니다.
 
-***제가 개발한 페이지는 https://github.com/JeongjuSong/Ownproject_code/tree/master/Watchers/src/main/webapp/WEB-INF 에서 확인하실 수 있습니다.***
+***제가 개발한 페이지는 https://github.com/JeongjuSong/Ownproject_code/tree/master/Watchers/src/main/webapp/WEB-INF 에서 확인하실 수 있습니다. 또한, Kinect 관련 C# 코드는 kinect/BodyBasics-WPF 폴더에서 확인 가능합니다.***
 
 page는 jsp 페이지들이며, resources는 페이지에 필요한 css, js, image 등의 파일들이 존재합니다.
 
