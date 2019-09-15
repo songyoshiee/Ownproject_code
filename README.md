@@ -8,7 +8,7 @@
 
 
 ## My Role
-저는 **Front-End**를 모두 개발하였으며, Bootstrap을 활용하여 페이지를 구현하였습니다.
+저는 **Kinect와 C# 언어**를 사용하여 걸음걸이 3차원 좌표 데이터를 얻어왔으며, **Front-End**를 모두 개발하였습니다.
 
 ***제가 개발한 페이지는 https://github.com/JeongjuSong/Ownproject_code/tree/master/Watchers/src/main/webapp/WEB-INF 에서 확인하실 수 있습니다.***
 
