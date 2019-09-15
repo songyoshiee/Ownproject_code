@@ -1,0 +1,50 @@
+C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Samples\Managed\BodyBasics-WPF\bin\AnyCPU\Debug\BodyBasics-WPF.exe.config
+C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Samples\Managed\BodyBasics-WPF\bin\AnyCPU\Debug\BodyBasics-WPF.exe
+C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Samples\Managed\BodyBasics-WPF\bin\AnyCPU\Debug\BodyBasics-WPF.pdb
+C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Samples\Managed\BodyBasics-WPF\bin\AnyCPU\Debug\Microsoft.Kinect.dll
+C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Samples\Managed\BodyBasics-WPF\bin\AnyCPU\Debug\Microsoft.Kinect.xml
+C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Samples\Managed\BodyBasics-WPF\obj\Debug\BodyBasics-WPF.csprojResolveAssemblyReference.cache
+C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Samples\Managed\BodyBasics-WPF\obj\Debug\MainWindow.baml
+C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Samples\Managed\BodyBasics-WPF\obj\Debug\MainWindow.g.cs
+C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Samples\Managed\BodyBasics-WPF\obj\Debug\App.g.cs
+C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Samples\Managed\BodyBasics-WPF\obj\Debug\BodyBasics-WPF_MarkupCompile.cache
+C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Samples\Managed\BodyBasics-WPF\obj\Debug\BodyBasics-WPF.g.resources
+C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Samples\Managed\BodyBasics-WPF\obj\Debug\Microsoft.Samples.Kinect.BodyBasics.Properties.Resources.resources
+C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Samples\Managed\BodyBasics-WPF\obj\Debug\BodyBasics-WPF.csproj.GenerateResource.Cache
+C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Samples\Managed\BodyBasics-WPF\obj\Debug\BodyBasics-WPF.exe
+C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Samples\Managed\BodyBasics-WPF\obj\Debug\BodyBasics-WPF.pdb
+C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Samples\Managed\BodyBasics-WPF\bin\AnyCPU\Debug\MySql.Data.dll
+C:\Users\pc154\Desktop\kinect\BodyBasics-WPF\bin\AnyCPU\Debug\BodyBasics-WPF.exe.config
+C:\Users\pc154\Desktop\kinect\BodyBasics-WPF\obj\Debug\BodyBasics-WPF.exe
+C:\Users\pc154\Desktop\kinect\BodyBasics-WPF\obj\Debug\BodyBasics-WPF.pdb
+C:\Users\pc154\Desktop\kinect\BodyBasics-WPF\bin\AnyCPU\Debug\BodyBasics-WPF.exe
+C:\Users\pc154\Desktop\kinect\BodyBasics-WPF\bin\AnyCPU\Debug\BodyBasics-WPF.pdb
+C:\Users\pc154\Desktop\kinect\BodyBasics-WPF\bin\AnyCPU\Debug\Microsoft.Kinect.dll
+C:\Users\pc154\Desktop\kinect\BodyBasics-WPF\bin\AnyCPU\Debug\MySql.Data.dll
+C:\Users\pc154\Desktop\kinect\BodyBasics-WPF\bin\AnyCPU\Debug\Microsoft.Kinect.xml
+C:\Users\pc154\Desktop\kinect\BodyBasics-WPF\obj\Debug\BodyBasics-WPF.csprojResolveAssemblyReference.cache
+C:\Users\pc154\Desktop\kinect\BodyBasics-WPF\obj\Debug\MainWindow.baml
+C:\Users\pc154\Desktop\kinect\BodyBasics-WPF\obj\Debug\MainWindow.g.cs
+C:\Users\pc154\Desktop\kinect\BodyBasics-WPF\obj\Debug\App.g.cs
+C:\Users\pc154\Desktop\kinect\BodyBasics-WPF\obj\Debug\BodyBasics-WPF_MarkupCompile.cache
+C:\Users\pc154\Desktop\kinect\BodyBasics-WPF\obj\Debug\BodyBasics-WPF.g.resources
+C:\Users\pc154\Desktop\kinect\BodyBasics-WPF\obj\Debug\Microsoft.Samples.Kinect.BodyBasics.Properties.Resources.resources
+C:\Users\pc154\Desktop\kinect\BodyBasics-WPF\obj\Debug\BodyBasics-WPF.csproj.GenerateResource.Cache
+C:\Users\pc154\OneDrive\바탕 화면\kinect\BodyBasics-WPF\obj\Debug\BodyBasics-WPF.csprojAssemblyReference.cache
+C:\Users\pc154\OneDrive\바탕 화면\kinect\BodyBasics-WPF\obj\Debug\MainWindow.baml
+C:\Users\pc154\OneDrive\바탕 화면\kinect\BodyBasics-WPF\obj\Debug\MainWindow.g.cs
+C:\Users\pc154\OneDrive\바탕 화면\kinect\BodyBasics-WPF\obj\Debug\App.g.cs
+C:\Users\pc154\OneDrive\바탕 화면\kinect\BodyBasics-WPF\obj\Debug\BodyBasics-WPF_MarkupCompile.cache
+C:\Users\pc154\OneDrive\바탕 화면\kinect\BodyBasics-WPF\obj\Debug\BodyBasics-WPF.g.resources
+C:\Users\pc154\OneDrive\바탕 화면\kinect\BodyBasics-WPF\obj\Debug\Microsoft.Samples.Kinect.BodyBasics.Properties.Resources.resources
+C:\Users\pc154\OneDrive\바탕 화면\kinect\BodyBasics-WPF\obj\Debug\BodyBasics-WPF.csproj.GenerateResource.cache
+C:\Users\pc154\OneDrive\바탕 화면\kinect\BodyBasics-WPF\obj\Debug\BodyBasics-WPF.csproj.CoreCompileInputs.cache
+C:\Users\pc154\OneDrive\바탕 화면\kinect\BodyBasics-WPF\obj\Debug\BodyBasics-WPF.exe
+C:\Users\pc154\OneDrive\바탕 화면\kinect\BodyBasics-WPF\obj\Debug\BodyBasics-WPF.pdb
+C:\Users\pc154\OneDrive\바탕 화면\kinect\BodyBasics-WPF\bin\AnyCPU\Debug\BodyBasics-WPF.exe.config
+C:\Users\pc154\OneDrive\바탕 화면\kinect\BodyBasics-WPF\bin\AnyCPU\Debug\BodyBasics-WPF.exe
+C:\Users\pc154\OneDrive\바탕 화면\kinect\BodyBasics-WPF\bin\AnyCPU\Debug\BodyBasics-WPF.pdb
+C:\Users\pc154\OneDrive\바탕 화면\kinect\BodyBasics-WPF\bin\AnyCPU\Debug\Microsoft.Kinect.dll
+C:\Users\pc154\OneDrive\바탕 화면\kinect\BodyBasics-WPF\bin\AnyCPU\Debug\MySql.Data.dll
+C:\Users\pc154\OneDrive\바탕 화면\kinect\BodyBasics-WPF\bin\AnyCPU\Debug\Microsoft.Kinect.xml
+C:\Users\pc154\OneDrive\바탕 화면\kinect\BodyBasics-WPF\obj\Debug\BodyBasics-WPF.csproj.CopyComplete
