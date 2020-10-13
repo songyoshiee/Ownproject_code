@@ -30,7 +30,7 @@
 		<mybatis.version>3.4.0</mybatis.version>
 		<servlet.version>4.0.1</servlet.version>
 		<jsp.version>2.3.1</jsp.version>
-		<junit.version>4.12</junit.version>
+		<junit.version>4.13.1</junit.version>
 		<logback.version>1.1.6</logback.version>
 		<slf4j.version>1.7.21</slf4j.version>
 		<maven.compiler.plugin.version>3.6.1</maven.compiler.plugin.version>
